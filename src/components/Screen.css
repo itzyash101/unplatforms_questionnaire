@@ -1,0 +1,24 @@
+.card {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 750px;
+    grid-template-rows: auto-fill;
+    grid-template-areas: "title" "text";
+    background-color: rgb(228, 228, 228);
+
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    height: auto;
+}
+.card-title {
+    grid-area: "title";
+    text-align: center;
+    margin-top: 10;
+}
+.card-text {
+    grid-area: "text";
+}
+#save-cancel {
+    margin: 10px 10px;
+    text-align: center;
+}

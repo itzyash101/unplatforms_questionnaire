@@ -1,0 +1,14 @@
+.card-body {
+    display: inline-block;
+    width: 94%;
+    margin-left: 3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    /* margin-right: 2%; */
+    /* grid-template-columns: 40%;
+    grid-template-rows: autofill; */
+}
+.question-tb {
+    display: inline-block;
+    width: 49%;
+}
